@@ -1,0 +1,135 @@
+{
+  "result": {
+    "totalCount": 3,
+    "items": [
+      {
+        "status": 1,
+        "description": "Cerveza hecha a partir de café.",
+        "financingValue": 0,
+        "category": 4,
+        "sentence": null,
+        "totalLikes": 2,
+        "likeThis": false,
+        "lastModificationTime": "2021-10-17T22:51:29.052799",
+        "risk": 6,
+        "user": {
+          "profilePicture": "https://giveme5storage.blob.core.windows.net/14-uji879/cf088e22-2234-4f5d-b93d-12ed39a659ac-GMF4.png",
+          "fullName": "Andrea Restrepo",
+          "karma": 2.5550000008195637,
+          "id": 14
+        },
+        "historyQuestions": [
+          {
+            "type": 0,
+            "answer": "Quiero montar una productora de cerveza artesanal",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/14-uji879/689436d0-93b6-4ea8-957d-ab808230b029-Captura de pantalla 2020-04-02 10.16.12.png",
+            "id": 21
+          },
+          {
+            "type": 1,
+            "answer": "Para que todos se deleiten con un delicioso sabor.Para que todos se deleiten con un delicioso sabor.Para que todos se d co todos se deleiten con un delicioso sabor.Para que todos se deleiten con un delicioso sabor.Para que todos se d coasdfasdfasdfn",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/14-uji879/32de5cd9-d921-49ab-950a-23f6eaf4e204-Captura de pantalla 2020-04-02 10.15.33.png",
+            "id": 22
+          },
+          {
+            "type": 2,
+            "answer": "Ya rife hasta mi casa pero no tengo ni la mitad de lo que necesito",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/14-uji879/29d8b217-47f9-449c-a20a-6c9d9fa006f2-Captura de pantalla 2020-04-02 10.16.12.png",
+            "id": 23
+          },
+          {
+            "type": 3,
+            "answer": "Pues poder montar mi cervecera.",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/14-uji879/e58288a4-de70-47b8-8854-3a39e3283dee-Captura de pantalla 2020-04-02 10.15.56.png",
+            "id": 24
+          }
+        ],
+        "reviews": null,
+        "id": 6
+      },
+      {
+        "status": 1,
+        "description": "Visita de mi familia el día de mi graduación ",
+        "financingValue": 1000000,
+        "category": 3,
+        "sentence": null,
+        "totalLikes": 4,
+        "likeThis": false,
+        "lastModificationTime": "2021-12-13T04:57:00.255387",
+        "risk": 4,
+        "user": {
+          "profilePicture": "https://giveme5storage.blob.core.windows.net/22-7163732/d680e04a-7b89-48e6-a86b-9382dbbee741-D3226426-7C07-4099-B6BD-1A51EA7187E4.jpeg",
+          "fullName": "Vanessa  Quiroz",
+          "karma": 0,
+          "id": 22
+        },
+        "historyQuestions": [
+          {
+            "type": 0,
+            "answer": "Acabo de graduarme de mi maestría en desarrollo humano en la universidad nacional de Medellín. Soy del amazonas y soy la única persona en mi familia que ha terminado algún estudio profesional. Ahora me gradúo y quisiera que mi familia me acompañe este día! ",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/22-7163732/0becfe81-f844-4358-bfab-a4a623108471-7A199D45-5E52-472D-8CF2-BFB861EB30B2.png",
+            "id": 73
+          },
+          {
+            "type": 1,
+            "answer": "Con el COVID es difícil que los familiares nos acompañen en la graduación. Por mis buenas notas conseguí que por lo menos tres personas me acompañen. No tengo el dinero suficiente para su transporte. Necesito 1.000.000 para su viaje en bus desde el Amazonas. Será un viaje de 36 horas felices! ",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/22-7163732/be5c386c-3765-4399-8140-7085595b8f59-B617096A-3087-42EB-BC23-F2F5DD9A1F7F.png",
+            "id": 74
+          },
+          {
+            "type": 2,
+            "answer": "Este sería mi plan de pago para darle tranquilidad a quien me quiera apoyar !!! ",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/22-7163732/2f69deea-b275-4a81-9871-e7089b787414-544F7CEF-4798-4121-839D-EB002BC317BB.png",
+            "id": 75
+          },
+          {
+            "type": 3,
+            "answer": "Esta ayuda simboliza una gratitud muy grande por poder compartir este momento con mis seres queridos ",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/22-7163732/fb9d376f-036f-43fe-8d84-f5911b3f5f01-0BAB4A12-7F2F-4795-99FB-0A545E4A6808.png",
+            "id": 76
+          }
+        ],
+        "reviews": null,
+        "id": 19
+      },
+      {
+        "status": 3,
+        "description": "El café es mi pasión.",
+        "financingValue": 1000000,
+        "category": 4,
+        "sentence": null,
+        "totalLikes": 1,
+        "likeThis": false,
+        "lastModificationTime": "2022-03-03T15:48:43.536397",
+        "risk": 8,
+        "user": {
+          "profilePicture": "https://giveme5storage.blob.core.windows.net/26-1357908642/f2610bd3-35fd-4acd-b90d-7182667eb379-GMF2.png",
+          "fullName": "Susana Ortega",
+          "karma": 0,
+          "id": 26
+        },
+        "historyQuestions": [
+          {
+            "type": 0,
+            "answer": "Muchas cosas lindas",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/26-1357908642/b4e18655-715d-41c0-84fe-95fc140f4026-Screen Shot 2021-03-30 at 6.33.51 PM.png",
+            "id": 93
+          },
+          {
+            "type": 1,
+            "answer": "Cosas bonitas para mostrar.",
+            "imageUrl": "https://giveme5storage.blob.core.windows.net/26-1357908642/e37315ca-7a69-44e8-b3fc-f6955cafeb64-Screen Shot 2021-03-30 at 6.34.00 PM.png",
+            "id": 94
+          }
+        ],
+        "reviews": null,
+        "id": 24
+      }
+    ]
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unAuthorizedRequest": false,
+  "__abp": true
+}
