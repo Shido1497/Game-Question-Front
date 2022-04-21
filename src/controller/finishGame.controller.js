@@ -6,14 +6,14 @@ export  default async (options) =>{
     divElement.innerHTML = view;
 
     await loadFinishGameInfoAsync(options, divElement);
-    sessionStorage.removeItem("Points");
-    sessionStorage.removeItem("ActualRoundData");
+    sessionStorage.removeItem("MatchPoints");
+    sessionStorage.removeItem("RoundData");
     sessionStorage.removeItem("Match");
 
-    const btnGoToScore = divElement.querySelector('#btnGoToScore');
+    const btnPlayAgain = divElement.querySelector('#btnPlayAgain');
 
 
-    await btnGoToScore.addEventListener('click', async (e) => {
+    await btnPlayAgain.addEventListener('click', async (e) => {
         e.preventDefault();
         console.log("entro al boton");
         setTimeout("location.reload(true);",0);

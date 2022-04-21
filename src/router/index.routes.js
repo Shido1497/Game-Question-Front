@@ -6,14 +6,13 @@ const router = async (route) => {
     console.log(route);
     content.innerHTML ='';
     
-    if( sessionStorage.getItem("playerInformation"))
+    if( sessionStorage.getItem("PlayerInformation"))
     {
         switch(route) {
             case '#/':{
-               console.log('Ingreso');
+               console.log('entro!!');
                 return content.appendChild(await pages.home()); 
             }
-               
             default:
                 {
                     console.log('404!!')

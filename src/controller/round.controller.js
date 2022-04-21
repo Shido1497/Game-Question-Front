@@ -16,17 +16,18 @@ const sendAnswerAsync = async (optionId) =>{
     console.log(optionId);
     console.log("Send answer");
 
-     if(sessionStorage.getItem("ActualRoundData"))
+     if(sessionStorage.getItem("RoundData"))
      {
-        const roundInfo = JSON.parse(sessionStorage.getItem("ActualRoundData")); 
+        const roundInfo = JSON.parse(sessionStorage.getItem("RoundData")); 
         console.log(roundInfo);
         const data =  { 
             matchId: roundInfo.matchId, 
             optionId: optionId , 
             roundId: roundInfo.roundId,
+            categoryId: roundInfo.questionDto.categoryId
         };
         console.log(data);
-        const response = await httpClient.post('https://localhost:5001/api/Match/SendQuestionAnswer',data);
+        const response = await httpClient.post('https://localhost:5001/api/Match/SendMatchRoundAnswer',data);
         
         debugger;
         console.log(response);
@@ -39,9 +40,9 @@ const sendAnswerAsync = async (optionId) =>{
 const sendRetireAsync = async () =>{
     console.log("Send Retire");
 
-     if(sessionStorage.getItem("ActualRoundData"))
+     if(sessionStorage.getItem("RoundData"))
      {
-        const roundInfo = JSON.parse(sessionStorage.getItem("ActualRoundData")); 
+        const roundInfo = JSON.parse(sessionStorage.getItem("RoundData")); 
         console.log(roundInfo);
         const data =  { 
             matchId: roundInfo.matchId
@@ -61,7 +62,7 @@ const loadQuestionMatchAsync = async (matchId, divElement) =>{
     console.log("load start");
 
     const startMatchResponse =  await startMatchAsync(matchId);
-    sessionStorage.setItem("ActualRoundData", JSON.stringify(startMatchResponse));
+    sessionStorage.setItem("RoundData", JSON.stringify(startMatchResponse));
 
     console.log(startMatchResponse);
 
@@ -91,7 +92,7 @@ export default async (matchId) =>{
     const btnSendAnnswer = divElement.querySelector('#btnSendAnnswer');
     const btnRetire = divElement.querySelector('#btnRetire');
 
-    if( !sessionStorage.getItem("Points"))
+    if( !sessionStorage.getItem("MatchPoints"))
     {
         await loadQuestionMatchAsync(matchId, divElement);
     }else
@@ -107,7 +108,7 @@ export default async (matchId) =>{
         
         if(response.completeGame || response.status == 0 || response.status == 1)
         {
-            sessionStorage.setItem("Points", JSON.stringify(response) );
+            sessionStorage.setItem("MatchPoints", JSON.stringify(response) );
         }
 
         const  name  = e.target;
@@ -122,7 +123,7 @@ export default async (matchId) =>{
         
         if(response.completeGame || response.status == 0 || response.status == 1)
         {
-            sessionStorage.setItem("Points", JSON.stringify(response) );
+            sessionStorage.setItem("MatchPoints", JSON.stringify(response) );
         }
 
         const  name  = e.target;

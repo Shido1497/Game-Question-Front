@@ -13,7 +13,7 @@ export default async () =>{
     await btnClick.addEventListener('click', async (e) => {
         e.preventDefault();
 
-        var userNameInput = document.getElementById('UserName')["value"];
+        var userNameInput = document.getElementById('userName')["value"];
 
         if(userNameInput != '')
         {

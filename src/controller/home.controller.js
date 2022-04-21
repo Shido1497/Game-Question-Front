@@ -15,9 +15,9 @@ export default async ()  => {
         console.log(idMatch);
         console.log("Round view");
 
-        const points = sessionStorage.getItem("TotalPoints");
+        const points = sessionStorage.getItem("MatchPoints");
         debugger;
-        if( !sessionStorage.getItem("TotalPoints"))
+        if( !sessionStorage.getItem("MatchPoints"))
         {
           content.appendChild(await matchComponents.round(idMatch));
         }  else {
